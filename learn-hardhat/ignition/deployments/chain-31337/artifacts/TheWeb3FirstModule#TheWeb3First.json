@@ -1,0 +1,141 @@
+{
+  "_format": "hh3-artifact-1",
+  "contractName": "TheWeb3First",
+  "sourceName": "contracts/TheWeb3First.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "a",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "b",
+          "type": "uint256"
+        }
+      ],
+      "name": "add",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "a",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "b",
+          "type": "uint256"
+        }
+      ],
+      "name": "div",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "a",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "b",
+          "type": "uint256"
+        }
+      ],
+      "name": "mul",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "number",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "returnNumber",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "a",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "b",
+          "type": "uint256"
+        }
+      ],
+      "name": "sub",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600e575f5ffd5b506103e85f556101c8806100215f395ff3fe608060405234801561000f575f5ffd5b5060043610610060575f3560e01c80633450bd6a14610064578063771602f7146100795780638381f58a1461008c578063a391c15b14610094578063b67d77c5146100a7578063c8a4ac9c146100ba575b5f5ffd5b5f545b60405190815260200160405180910390f35b610067610087366004610102565b6100cd565b6100675f5481565b6100676100a2366004610102565b6100e1565b6100676100b5366004610102565b6100ec565b6100676100c8366004610102565b6100f7565b5f6100d88284610136565b90505b92915050565b5f6100d88284610149565b5f6100d88284610168565b5f6100d8828461017b565b5f5f60408385031215610113575f5ffd5b50508035926020909101359150565b634e487b7160e01b5f52601160045260245ffd5b808201808211156100db576100db610122565b5f8261016357634e487b7160e01b5f52601260045260245ffd5b500490565b818103818111156100db576100db610122565b80820281158282048414176100db576100db61012256fea26469706673582212200fd6ab66b3a81f9378b4f47230b0b8e40e5894c615ea5f2c53254ccf361436e364736f6c634300081c0033",
+  "deployedBytecode": "0x608060405234801561000f575f5ffd5b5060043610610060575f3560e01c80633450bd6a14610064578063771602f7146100795780638381f58a1461008c578063a391c15b14610094578063b67d77c5146100a7578063c8a4ac9c146100ba575b5f5ffd5b5f545b60405190815260200160405180910390f35b610067610087366004610102565b6100cd565b6100675f5481565b6100676100a2366004610102565b6100e1565b6100676100b5366004610102565b6100ec565b6100676100c8366004610102565b6100f7565b5f6100d88284610136565b90505b92915050565b5f6100d88284610149565b5f6100d88284610168565b5f6100d8828461017b565b5f5f60408385031215610113575f5ffd5b50508035926020909101359150565b634e487b7160e01b5f52601160045260245ffd5b808201808211156100db576100db610122565b5f8261016357634e487b7160e01b5f52601260045260245ffd5b500490565b818103818111156100db576100db610122565b80820281158282048414176100db576100db61012256fea26469706673582212200fd6ab66b3a81f9378b4f47230b0b8e40e5894c615ea5f2c53254ccf361436e364736f6c634300081c0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {},
+  "immutableReferences": {},
+  "inputSourceName": "project/contracts/TheWeb3First.sol",
+  "buildInfoId": "solc-0_8_28-0dbfe9eee3da2992b812aa146b0abfeed4fdfa8e"
+}

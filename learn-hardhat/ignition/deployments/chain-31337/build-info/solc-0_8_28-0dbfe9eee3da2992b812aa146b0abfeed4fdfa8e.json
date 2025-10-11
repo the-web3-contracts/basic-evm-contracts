@@ -1,0 +1,39 @@
+{
+  "_format": "hh3-sol-build-info-1",
+  "id": "solc-0_8_28-0dbfe9eee3da2992b812aa146b0abfeed4fdfa8e",
+  "solcVersion": "0.8.28",
+  "solcLongVersion": "0.8.28+commit.7893614a",
+  "userSourceNameMap": {
+    "contracts/TheWeb3First.sol": "project/contracts/TheWeb3First.sol"
+  },
+  "input": {
+    "language": "Solidity",
+    "settings": {
+      "evmVersion": "cancun",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "outputSelection": {
+        "*": {
+          "": [
+            "ast"
+          ],
+          "*": [
+            "abi",
+            "evm.bytecode",
+            "evm.deployedBytecode",
+            "evm.methodIdentifiers",
+            "metadata"
+          ]
+        }
+      },
+      "remappings": []
+    },
+    "sources": {
+      "project/contracts/TheWeb3First.sol": {
+        "content": "// SPDX-License-Identifier: UNLICENSED\npragma solidity ^0.8.28;\n\ncontract TheWeb3First {\n\n  uint256 public number;\n\n  constructor() {\n    number = 1000;\n  }\n\n  function add(uint256 a, uint256 b) public pure returns (uint256){\n    return a + b;\n  }\n\n\n  function mul(uint256 a, uint256 b) public pure returns (uint256){\n    return a * b;\n  }\n\n  function sub(uint256 a, uint256 b) public pure returns (uint256) {\n    return  a - b;\n  }\n\n  function div(uint256 a, uint256 b) public pure returns (uint256) {\n    return  a / b;\n  }\n\n  function returnNumber() public view returns (uint256){\n    return number;\n  }\n}\n"
+      }
+    }
+  }
+}
