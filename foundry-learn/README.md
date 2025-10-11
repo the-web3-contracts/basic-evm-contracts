@@ -51,6 +51,9 @@ $ anvil
 $ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
 ```
 
+```shell
+forge verify-contract -rpc-url https://rpc.roothashpay.com --verifier blockscout --verifier-url 'https://explorer.roothashpay.com/api/' 0x0e4B5e7c52EBB0a471716fBcc215Ef84eD752e16 ./src/TheWebThree.sol:TheWebThree
+```
 ### Cast
 
 ```shell
