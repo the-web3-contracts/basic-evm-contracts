@@ -9,6 +9,7 @@ contract AddressTypeTest is Test {
 
     function setUp() public {
         addressType = new AddressTypeData(payable(0x45Bd8ea16cFEB0D937a2D98cBEb0300e3E689Fe7));
+        // vm.deal(address(addressType), 10 ether);
     }
 
     function test_setAddress() public {
