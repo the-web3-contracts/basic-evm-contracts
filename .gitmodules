@@ -10,3 +10,9 @@
 [submodule "data-type/lib/forge-std"]
 	path = data-type/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "data-type/lib/openzeppelin-contracts"]
+	path = data-type/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "data-type/lib/openzeppelin-contracts-upgradeable"]
+	path = data-type/lib/openzeppelin-contracts-upgradeable
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable
