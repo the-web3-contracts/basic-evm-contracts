@@ -17,7 +17,7 @@ contract StructType {
 
     PersonInfo public userInfo;
     PersonInfo public user2Info;
-    Person public user;
+    Person public user;  // 自带的 user() 函数
     Person public user2;
 
     function setPerson(string memory _name, uint256 _age, address _walletAddress) public {
