@@ -34,3 +34,6 @@
 [submodule "contracts-advance/lib/forge-std"]
 	path = contracts-advance/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "token-issure/lib/forge-std"]
+	path = token-issure/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
