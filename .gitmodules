@@ -37,3 +37,9 @@
 [submodule "token-issure/lib/forge-std"]
 	path = token-issure/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "token-issure/lib/openzeppelin-contracts"]
+	path = token-issure/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "token-issure/lib/openzeppelin-contracts-upgradeable"]
+	path = token-issure/lib/openzeppelin-contracts-upgradeable
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable
