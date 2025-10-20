@@ -12,4 +12,5 @@ abstract contract FundingManageStorage {
     mapping(address => uint256) public fundingBalance;
     mapping(address => bool) public supportToken;
 
+    uint256[100] private placeHolder;
 }
